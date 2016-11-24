@@ -1,0 +1,66 @@
+.modularity-mod-custom_index{
+    position: relative;
+
+    a{
+        text-decoration:none;
+    }
+    
+    h2{
+        display: none;
+    } 
+    .box{
+        padding-bottom:0;
+        min-height:300px;
+        
+        p{
+            color:white;
+        }
+
+        .box-content{   
+            background-color:transparent !important;         
+            .buttons{
+                padding: 5px 0;
+                margin: 0;
+
+                .link{
+                    font-size: 14px;
+                    color: #fff;
+                    border: 2px solid #fff;
+                    padding: 5px 30px;
+                    border-radius: 15px;
+                    text-decoration: none;
+                    background: transparent;
+                    cursor: pointer;
+
+                    &.first{
+                        color: #fff;
+                        background-color: #24c875;
+                        border: 2px solid #24c875;
+                    }
+                    &:hover{
+                        background: #ccc;
+                        border: 2px solid #ccc;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+
+    .date-time{
+        position: absolute;
+        width: 100%;
+        padding: 10px 15px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+        background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+        color: white;
+
+        p{
+            color: white;
+            margin-bottom: 0px;
+        }
+    }
+}

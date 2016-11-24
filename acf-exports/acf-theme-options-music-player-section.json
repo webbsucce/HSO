@@ -1,0 +1,63 @@
+{
+  "key": "group_57f667052ab4f",
+  "title": "Music Player Section",
+  "fields": [
+    {
+      "key": "field_57f6673cc8890",
+      "label": "Music File",
+      "name": "music_files",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": "",
+      "max": "",
+      "layout": "table",
+      "button_label": "Add Row",
+      "sub_fields": [
+        {
+          "key": "field_582044c608998",
+          "label": "Music File",
+          "name": "music_file",
+          "type": "file",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "library": "all",
+          "min_size": "",
+          "max_size": 20,
+          "mime_types": "mp3"
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "acf-options-hso-options"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": 1,
+  "description": ""
+}

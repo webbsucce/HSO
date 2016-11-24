@@ -1,0 +1,29 @@
+.section.author{
+	.author-image{
+		height: 220px;
+	    width: 220px;
+	    margin: 0 auto;
+	    background-size: cover;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    -moz-border-radius: 220px;
+	    -webkit-border-radius: 220px;
+	    border-radius: 220px;
+	}
+	.title {
+	    font-size: 24px;
+	    color: black;
+	    text-align: center;
+	    margin: 25px auto;
+	}
+	.info-list {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	    font-size: 16px;
+	    color: black;
+     	li {
+		    padding-bottom: 10px;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+/* TEAM */
+Project mananger: Marcus Öjersson
+Contact: marcus [at] webbsucce.se
+
+First developer: Herman Shaho
+
+Second developer: Chirag Parekh
+
+Company: http://webbsucce.se
+
+/* THANKS */
+Developer for Helsingborg Stad WordPress: Sebastian Thulin
+Github: https://github.com/helsingborg-stad/Municipio
+
+/* SITE */
+Last update: 2016/11/01
+Components: Helsingborg-stad Styleguide Web (https://github.com/helsingborg-stad/styleguide-web)
+IDE: Sublime Text, Notepad++, FileZilla, Photoshop, NodeJS

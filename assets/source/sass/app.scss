@@ -1,0 +1,37 @@
+@import 'master';
+
+@import 'config/colors';
+@import 'config/fonts';
+
+@import 'components/subpage';
+@import 'components/general';
+@import 'components/desktop-menu';
+@import 'components/search-bar';
+@import 'components/scroll-section';
+@import 'components/startboxes';
+@import 'components/whatsup';
+@import 'components/section-author';
+@import 'components/vara-musiker';
+@import 'components/events';
+@import 'components/single-event';
+@import 'components/featured_event';
+@import 'components/homepage';
+@import 'components/slider';
+@import 'components/module-custom-index';
+@import 'components/module-featured-event';
+@import 'components/module-custom-featured-image';
+@import 'components/module-table';
+@import 'components/module-index';
+@import 'components/social-share';
+@import 'components/attention-modal';
+@import 'components/sidebar-navigation';
+
+@import 'layout/contact';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/blog';
+@import 'layout/page';
+
+.is-child-theme {
+	//@import 'layout/base';
+}

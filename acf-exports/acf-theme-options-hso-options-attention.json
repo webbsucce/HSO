@@ -1,0 +1,69 @@
+{
+  "key": "group_581c906bd0ad1",
+  "title": "Attention",
+  "fields": [
+    {
+      "key": "field_581c90802b7a6",
+      "label": "Description",
+      "name": "attention_description",
+      "type": "wysiwyg",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "tabs": "all",
+      "toolbar": "full",
+      "media_upload": 1
+    },
+    {
+      "key": "field_581c90972b7a7",
+      "label": "On \/ Off",
+      "name": "attention_on_off",
+      "type": "select",
+      "instructions": "On \/ Off",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "choices": {
+        "on": "On",
+        "off": "Off"
+      },
+      "default_value": {
+        "off": "off"
+      },
+      "allow_null": 0,
+      "multiple": 0,
+      "ui": 0,
+      "ajax": 0,
+      "placeholder": "",
+      "disabled": 0,
+      "readonly": 0
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "acf-options-hso-options"
+      }
+    ]
+  ],
+  "menu_order": 1,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": 1,
+  "description": ""
+}

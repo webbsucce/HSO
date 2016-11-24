@@ -1,0 +1,68 @@
+.admin-bar #site-header{
+	margin-top: 0;
+}
+body{
+	font-family: $open-sans;
+	font-size: 14px;
+	margin-top: 90px;
+}
+p{
+	font-size: 16px;
+	margin-bottom: 30px;
+	color:$black;
+}
+#main-content {
+  	background-color: #FFF;
+	a{
+		color: #1e6090;
+	}
+}
+.home{
+	#main-content {
+	  	/* background-color: #f2f2f2; */
+	}
+}
+.color-white{
+  	color: #FFF !important;
+}
+.no-padding-top{
+	padding-top:0 !important;
+}
+.clear{
+	clear:both !important;
+}
+
+/* Transition effect on clickable elements */
+a,button, input[type="submit"]{
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/* Remove textmodule shadow and style */
+.modularity-mod-text{
+	.box{
+		box-shadow:none !important;
+
+		.box-content{
+			border:0;
+			box-shadow:none !important;
+		}
+	}
+}
+
+.visible-block{
+	display:block !important;
+}
+.visible-inline-block{
+	display:inline-block !important;
+}
+.visible-inline{
+	display:inline !important;
+}
+.hidden-display{
+	display:none !important;
+}
+.error404{
+	background:#333 !important;
+}

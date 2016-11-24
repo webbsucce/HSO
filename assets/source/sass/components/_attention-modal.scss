@@ -1,0 +1,35 @@
+#attention-modal{
+	background: rgba(255,255,255,0.8);
+	border-bottom:5px solid #B92727;
+
+	.btn-close{
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    margin: 10px;
+	    background: transparent;
+	    border: 0;
+	    outline: 0;
+	    cursor:pointer;
+
+		&:before{
+			content: "\00d7";
+		    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+		    font-size: 24px;
+		    height: 30px;
+		    width: 30px;
+		    display: inline-block;
+		    line-height: 30px;
+		    text-align: center;
+		    border: 2px solid black;
+		    border-radius: 30px;
+		    vertical-align: middle;
+		    margin-right: 5px;
+		}
+		&:hover:before{
+			background: #B92727;
+		    color: white !important;
+		    border-color: #B92727 !important;
+		}
+	}
+}

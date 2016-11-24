@@ -1,0 +1,155 @@
+#player-container {
+  background-color: #edeef0;
+  width: 100%;
+  height: 60px;
+  font-family: sans-serif;
+
+  .left-controls{
+    float: left;
+    width: 20%;
+    margin-top: 9px;
+    text-align: center;
+
+    ul{
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+
+        a {
+          display: inline-block;
+          padding: 8px;
+          vertical-align: middle;
+          color: black;
+          font-size: 18px;
+            line-height: 1;
+
+          &.play{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  } /* .left-controls */
+
+  .right-controls{
+    float: left;
+    width: 35%;
+    margin-top: 9px;
+    text-align: left;
+
+    ul{
+      padding: 0;
+      margin: 0;
+      float: left;
+
+      li {
+        display: inline-block;
+
+        a {
+          display: inline-block;
+          padding: 8px;
+          vertical-align: middle;
+          color: black;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .title-container{
+      color: #979899;
+      font-size: 14px;
+      float: left;
+      margin-left: 15px;
+
+      p{
+        margin: 5px 0;
+        line-height:0.5;
+      }
+    }
+  } /* .right-controls */
+
+  .progress-container {
+    width: 45%;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+
+    .minutes {
+      padding: 5px;
+      position: absolute;
+      top: 5px;
+      font-size: 14px;
+
+      &.left{
+        left: 0;
+      }
+
+      &.right{
+        right: 0;
+      }
+    }
+
+    .progress {
+      position: absolute;
+      height: 10px;
+      background-color: #c9ccc9;
+      top: 15px;
+      left: 50px;
+      right: 50px;
+      border-radius: 10px;
+      border:1px solid #edeef0;
+      cursor: pointer;
+    }
+
+    .ui-slider-handle{
+      display: none;
+    }
+
+    .ui-slider-range{
+      background: none;
+      background-color: #226089;
+      border:1px solid #226089;
+      height: 100%;
+      border-radius: 10px;
+    }
+  } /* .progress-container */
+
+  .jp-current-time, .jp-duration{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #player-container{
+    height: 100%;
+
+    .left-controls{
+      float: none;
+      width: 100%;
+      margin-top:0;
+    }
+
+    .progress-container{
+      float: none;
+      width: 100%;
+      height: 20px;
+    }
+
+    .right-controls{
+      float: none;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+
+      ul{
+        float: none;
+      }
+
+      .title-container{
+        float: none;
+      }
+    }
+  }
+}
