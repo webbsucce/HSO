@@ -1,0 +1,29 @@
+{
+    "name": "webbsucce/hso",
+    "description": "Webbsucce hso theme",
+    "license": "GNU",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "Webbsucce",
+            "email": "tech@webbsucce.se"
+        }
+    ],
+    "repositories": [
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.0",
+        "philo/laravel-blade": "^3.1",
+        "symfony/debug": "^3.0",
+        "wpackagist-plugin/advanced-custom-fields": "^4.4.7"
+    },
+    "extra" : {
+        "installer-paths" : {
+            "vendor/{$name}/": ["type:wordpress-plugin"]
+        }
+    }
+}
